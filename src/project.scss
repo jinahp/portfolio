@@ -1,0 +1,293 @@
+.top {
+  color: #313131;
+  font-weight: bold;
+  font-family: "Gowun Dodum", sans-serif;
+  background-color: white;
+  width: 15em;
+  margin: 2em auto;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .v2 h4 {
+    font-family: "Monument", sans-serif;
+    margin: 1.5rem;
+    display: inline-flex;
+    font-size: 4rem;
+    background-clip: text;
+    -webkit-text-fill-color: #ac584d;
+    text-shadow: 0px 0px 10px #ffffff;
+  }
+
+  #openCloseBox {
+    font-family: "Monument", sans-serif;
+    width: 100%;
+    #openCloseBtn {
+      background-color: white;
+      height: 1.5em;
+      text-align: center;
+      margin: 5em auto;
+      border-radius: 10px;
+      color: #6a6a6a;
+      letter-spacing: 2px;
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5pt;
+    }
+
+    #openCloseBtn:hover,
+    #openCloseBtn:focus {
+      color: #ac5656;
+      transition: all ease 0.2s 0s;
+    }
+  }
+  .gifZip {
+    animation: fadeIn 2s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 5;
+      transform: translateZ(0);
+    }
+  }
+
+  .gifs {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #9d9d9de2;
+  }
+
+  .gitTitle {
+    font-family: "Libre Baskerville", serif;
+    font-size: 17pt;
+    margin-bottom: 10px;
+  }
+
+  .github {
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 13pt;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-decoration: underline;
+  }
+
+  .question1 {
+    font-family: "Gowun Dodum", sans-serif;
+    letter-spacing: 2pt;
+    font-size: 17pt;
+    color: #af524a;
+    font-weight: bolder;
+    margin: 80px 0 50px;
+  }
+
+  .answer {
+    justify-content: center;
+    font-family: "Nanum Gothic Coding", monospace;
+    letter-spacing: 1px;
+    line-height: 2;
+    font-size: 12pt;
+    color: #313131;
+    font-weight: 600;
+    margin: 0 auto 50px;
+    max-width: 600px;
+    padding-top: 15pt;
+  }
+}
+
+/* 태블릿 기기 (768px ~ 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .v2 h4 {
+    font-family: "Monument", sans-serif;
+    margin: 1.5rem;
+    display: inline-flex;
+    font-size: 4rem;
+    background-clip: text;
+    -webkit-text-fill-color: #ac584d;
+    text-shadow: 0px 0px 10px #ffffff;
+  }
+
+  #openCloseBox {
+    font-family: "Monument", sans-serif;
+    width: 100%;
+    #openCloseBtn {
+      background-color: white;
+      height: 1.5em;
+      text-align: center;
+      margin: 5em auto;
+      border-radius: 10px;
+      color: #6a6a6a;
+      letter-spacing: 2px;
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5pt;
+    }
+
+    #openCloseBtn:hover,
+    #openCloseBtn:focus {
+      color: #ac5656;
+      transition: all ease 0.2s 0s;
+    }
+  }
+  .gifZip {
+    animation: fadeIn 2s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 5;
+      transform: translateZ(0);
+    }
+  }
+
+  .gifs {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #9d9d9de2;
+  }
+
+  .gitTitle {
+    font-family: "Libre Baskerville", serif;
+    font-size: 17pt;
+    margin-bottom: 10px;
+  }
+
+  .github {
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 13pt;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-decoration: underline;
+  }
+
+  .question1 {
+    font-family: "Gowun Dodum", sans-serif;
+    letter-spacing: 2pt;
+    font-size: 17pt;
+    color: #af524a;
+    font-weight: bolder;
+    margin: 80px 0 50px;
+  }
+
+  .answer {
+    justify-content: center;
+    font-family: "Nanum Gothic Coding", monospace;
+    letter-spacing: 1px;
+    line-height: 2;
+    font-size: 12pt;
+    color: #313131;
+    font-weight: 600;
+    margin: 0 auto 50px;
+    max-width: 600px;
+    padding-top: 15pt;
+  }
+}
+
+/* 데스크탑 기기 (1024px 이상) */
+@media only screen and (min-width: 1024px) {
+  .v2 h4 {
+    font-family: "Monument", sans-serif;
+    margin: 1.5rem;
+    display: inline-flex;
+    font-size: 4rem;
+    background-clip: text;
+    -webkit-text-fill-color: #ac584d;
+    text-shadow: 0px 0px 10px #ffffff;
+  }
+
+  #openCloseBox {
+    font-family: "Monument", sans-serif;
+    width: 100%;
+    #openCloseBtn {
+      background-color: white;
+      height: 1.5em;
+      text-align: center;
+      margin: 5em auto;
+      border-radius: 10px;
+      color: #6a6a6a;
+      letter-spacing: 2px;
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5pt;
+    }
+
+    #openCloseBtn:hover,
+    #openCloseBtn:focus {
+      color: #ac5656;
+      transition: all ease 0.2s 0s;
+    }
+  }
+  .gifZip {
+    animation: fadeIn 2s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 5;
+      transform: translateZ(0);
+    }
+  }
+
+  .gifs {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #acacacb5;
+  }
+
+  .gitTitle {
+    font-family: "Libre Baskerville", serif;
+    font-size: 20pt;
+    margin-bottom: 10px;
+  }
+
+  .github {
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 15pt;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-decoration: underline;
+  }
+
+  .question1 {
+    font-family: "Gowun Dodum", sans-serif;
+    letter-spacing: 2pt;
+    font-size: 20pt;
+    color: #af524a;
+    font-weight: bolder;
+    margin: 80px 0 50px;
+  }
+
+  .answer {
+    justify-content: center;
+    font-family: "Nanum Gothic Coding", monospace;
+    letter-spacing: 1px;
+    line-height: 2;
+    font-size: 15pt;
+    color: #313131;
+    font-weight: 600;
+    margin: 0 auto 50px;
+    max-width: 1000px;
+    padding-top: 15pt;
+  }
+}
