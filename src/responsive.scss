@@ -216,7 +216,7 @@ a {
       box-sizing: border-box;
       text-align: center;
       color: black;
-      padding: 60px;
+      padding: 40px 0;
 
       .masking {
         z-index: 3;
@@ -323,9 +323,7 @@ a {
 
   .v1 h4 {
     font-family: "Monument", sans-serif;
-    margin: 1.5rem;
-    display: inline-flex;
-    font-size: 4rem;
+    font-size: 3rem;
     background-position: 0 0;
     background-clip: text;
     -webkit-text-fill-color: #ffffff;
@@ -845,16 +843,6 @@ a {
     justify-content: center;
     text-align: center;
     margin-top: 100px;
-  }
-
-  .v2 h4 {
-    font-family: "Monument", sans-serif;
-    margin: 1.5rem;
-    display: inline-flex;
-    font-size: 4rem;
-    background-clip: text;
-    -webkit-text-fill-color: #ac584d;
-    text-shadow: 0px 0px 10px #ffffff;
   }
 
   .icons {

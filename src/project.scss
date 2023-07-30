@@ -2,18 +2,18 @@
   color: #313131;
   font-weight: bold;
   font-family: "Gowun Dodum", sans-serif;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.637);
   width: 15em;
   margin: 2em auto;
   border-radius: 10px;
+  font-size: 15pt;
+  padding: 5px;
 }
 
 @media only screen and (max-width: 767px) {
   .v2 h4 {
     font-family: "Monument", sans-serif;
-    margin: 1.5rem;
-    display: inline-flex;
-    font-size: 4rem;
+    font-size: 3rem;
     background-clip: text;
     -webkit-text-fill-color: #ac584d;
     text-shadow: 0px 0px 10px #ffffff;
@@ -93,8 +93,8 @@
     font-family: "Nanum Gothic Coding", monospace;
     letter-spacing: 1px;
     line-height: 2;
-    font-size: 12pt;
-    color: #313131;
+    font-size: 10pt;
+    color: #515151;
     font-weight: 600;
     margin: 0 auto 50px;
     max-width: 600px;
