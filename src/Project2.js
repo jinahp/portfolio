@@ -21,8 +21,8 @@ import "./project.scss";
 function Project2() {
   return (
     <>
-      <div class="wrapper v2">
-        <Collapse title={<h4 class="skill">// Project 2</h4>}>
+      <div class="wrapper v3">
+        <Collapse title={<h4 class="skill">＜Project 2 /＞</h4>}>
           <div class="gifZip">
             <div class="gitTitle">
               [Personal Project Github Link]
@@ -36,13 +36,13 @@ function Project2() {
               https://github.com/jinahp/shop
             </a>
             <br />
-            <div class="question1">
+            <div class="question2">
               Q1. 프로젝트 기획의도
               <br />
               <div class="answer">
                 React와 Spring Boot를 활용하여 쇼핑몰 웹사이트를 개발했습니다.
                 <br />
-                프론트엔드에서는 Redux를 사용하여 상태 관리를 처리하고,
+                프론트엔드에서는 Redux Toolkit을 사용하여 상태 관리를 처리하고,
                 백엔드에서는 MyBatis를 이용하여 데이터베이스와의 연동을
                 처리합니다. 최소한의 디자인과 기능으로 사용자들이 원하는 상품을
                 검색하고 주문하는 기본적인 기능을 구현하여 프론트엔드와 백엔드를
@@ -67,7 +67,7 @@ function Project2() {
               <div class="answer">
                 1. Yup을 이용해 회원가입 Form 유효성 검사 구현
                 <br />
-                2. 회원 데이터는 Axios로 Post하여 SpringBoot 백엔드로 전송
+                2. 회원 데이터는 Axios로 Post하여 Spring Boot 백엔드로 전송
               </div>
               <img class="gifs" src={pj10} />
               <div class="answer">
@@ -112,6 +112,8 @@ function Project2() {
                 1. 주문자 정보와 장바구니에 담긴 상품을 Redux에서 가져옴
                 <br />
                 2. DaumPostcode 컴포넌트를 사용하여, 우편번호 검색 서비스 구현
+                <br />
+                3. React-bootstrap 모달을 사용하여 팝업창 구현
               </div>
               <img class="gifs" src={pj16} />
               <div class="answer">1. 주문 데이터를 Back-end로 전송 구현</div>
@@ -123,13 +125,30 @@ function Project2() {
                 <br />
                 2. 검색한 상품 클릭 시 화면 이동 구현
               </div>
-              <h3 class="top">Q&A 게시판 CRUD 구현(SpringBoot Back-end)</h3>
+              <h3 class="top">Q&A 게시판 CRUD 구현(Spring Boot Back-end)</h3>
               <img class="gifs" src={pj11} />
               <div class="answer">1. READ 구현</div>
               <img class="gifs" src={pj12} />
               <div class="answer">2. CREATE/DELETE 구현</div>
               <img class="gifs" src={pj13} />
               <div class="answer">3. UPDATE 구현</div>
+              Q4. 사용언어 및 라이브러리
+              <br />
+              <div class="answer">
+                JavaScript, React, React-Bootstrap, SCSS, Axios, Redux Toolkit,
+                Yup, Spring Boot, MyBatis, MySQL
+                <br />
+              </div>
+              Q5. 프로젝트를 경험하고 느낀 점
+              <br />
+              <div class="answer">
+                프로젝트를 처음부터 끝까지 개발하면서 발생한 오류들을 해결해
+                나가는 과정은 도전적이고 힘든 일이지만, 동시에 많은 성취감을
+                느끼는 기회였습니다. 다양한 기술과 개념을 습득하고 적용하면서
+                프로젝트가 발전하는 게 즐거웠습니다. 이러한 경험들을 바탕으로
+                계속해서 도전적인 프로젝트에 참여하고 성장해 나가고자 합니다.
+                <br />
+              </div>
             </div>
           </div>
         </Collapse>

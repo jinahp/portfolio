@@ -11,7 +11,7 @@ function Project() {
   return (
     <>
       <div class="wrapper v2">
-        <Collapse title={<h4 class="skill">// Project 1</h4>}>
+        <Collapse title={<h4 class="skill">＜Project 1 /＞</h4>}>
           <div class="gifZip">
             <div class="gitTitle">
               [Team Project Github Link]

@@ -71,12 +71,13 @@ function Main() {
         {/* skills */}
         <div class="wrapper v1">
           <div class="skill">
-            <h4>＜My Skills＞</h4>
+            <h4>＜My Skills /＞</h4>
           </div>
           <div class="tooltip">
             <img class="icons" src={htmlPng} />
             <img class="icons" src={jsPng} />
             <img class="icons" src={javaPng} />
+            <br />
             <img class="icons" src={jspPng} />
             <img class="icons" src={reactPng} />
             <img class="icons" src={sqlPng} />
